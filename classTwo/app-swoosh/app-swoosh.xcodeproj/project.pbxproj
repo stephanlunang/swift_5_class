@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA78972F243E90830033B214 /* LeagueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA78972E243E90830033B214 /* LeagueVC.swift */; };
+		BA789731243E90A70033B214 /* SkillVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA789730243E90A70033B214 /* SkillVC.swift */; };
+		BA789758243FC8E90033B214 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA789757243FC8E90033B214 /* Player.swift */; };
 		BAF2F37B243BC78700FF34DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF2F37A243BC78700FF34DB /* AppDelegate.swift */; };
 		BAF2F37D243BC78700FF34DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF2F37C243BC78700FF34DB /* SceneDelegate.swift */; };
-		BAF2F37F243BC78700FF34DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF2F37E243BC78700FF34DB /* ViewController.swift */; };
+		BAF2F37F243BC78700FF34DB /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF2F37E243BC78700FF34DB /* WelcomeVC.swift */; };
 		BAF2F382243BC78700FF34DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAF2F380243BC78700FF34DB /* Main.storyboard */; };
 		BAF2F384243BC78800FF34DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAF2F383243BC78800FF34DB /* Assets.xcassets */; };
 		BAF2F387243BC78800FF34DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAF2F385243BC78800FF34DB /* LaunchScreen.storyboard */; };
@@ -17,10 +20,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BA78972E243E90830033B214 /* LeagueVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueVC.swift; sourceTree = "<group>"; };
+		BA789730243E90A70033B214 /* SkillVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillVC.swift; sourceTree = "<group>"; };
+		BA789757243FC8E90033B214 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		BAF2F377243BC78700FF34DB /* app-swoosh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "app-swoosh.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAF2F37A243BC78700FF34DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BAF2F37C243BC78700FF34DB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BAF2F37E243BC78700FF34DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BAF2F37E243BC78700FF34DB /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
 		BAF2F381243BC78700FF34DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BAF2F383243BC78800FF34DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BAF2F386243BC78800FF34DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -39,6 +45,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA78972C243E8F520033B214 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BA789757243FC8E90033B214 /* Player.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BA78972D243E8F610033B214 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BAF2F37E243BC78700FF34DB /* WelcomeVC.swift */,
+				BA78972E243E90830033B214 /* LeagueVC.swift */,
+				BA789730243E90A70033B214 /* SkillVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		BAF2F36E243BC78700FF34DB = {
 			isa = PBXGroup;
 			children = (
@@ -58,10 +82,11 @@
 		BAF2F379243BC78700FF34DB /* app-swoosh */ = {
 			isa = PBXGroup;
 			children = (
+				BA78972C243E8F520033B214 /* Model */,
+				BA78972D243E8F610033B214 /* Controller */,
 				BAF2F3AC243BC98C00FF34DB /* View */,
 				BAF2F37A243BC78700FF34DB /* AppDelegate.swift */,
 				BAF2F37C243BC78700FF34DB /* SceneDelegate.swift */,
-				BAF2F37E243BC78700FF34DB /* ViewController.swift */,
 				BAF2F380243BC78700FF34DB /* Main.storyboard */,
 				BAF2F383243BC78800FF34DB /* Assets.xcassets */,
 				BAF2F385243BC78800FF34DB /* LaunchScreen.storyboard */,
@@ -149,9 +174,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAF2F37F243BC78700FF34DB /* ViewController.swift in Sources */,
+				BA78972F243E90830033B214 /* LeagueVC.swift in Sources */,
+				BAF2F37F243BC78700FF34DB /* WelcomeVC.swift in Sources */,
 				BAF2F37B243BC78700FF34DB /* AppDelegate.swift in Sources */,
 				BAF2F37D243BC78700FF34DB /* SceneDelegate.swift in Sources */,
+				BA789758243FC8E90033B214 /* Player.swift in Sources */,
+				BA789731243E90A70033B214 /* SkillVC.swift in Sources */,
 				BAF2F3AE243BC9AC00FF34DB /* BorderButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

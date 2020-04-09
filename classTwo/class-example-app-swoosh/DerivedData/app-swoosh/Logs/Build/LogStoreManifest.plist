@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>27CFF4CB-A780-464A-B7E0-D3587D3EAA7A</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>27CFF4CB-A780-464A-B7E0-D3587D3EAA7A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>app-swoosh project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>app-swoosh</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build app-swoosh</string>
+			<key>timeStartedRecording</key>
+			<real>586723370.96161401</real>
+			<key>timeStoppedRecording</key>
+			<real>586723385.69558501</real>
+			<key>title</key>
+			<string>Build app-swoosh</string>
+			<key>uniqueIdentifier</key>
+			<string>27CFF4CB-A780-464A-B7E0-D3587D3EAA7A</string>
+		</dict>
+		<key>C6382FE7-2B00-492F-9668-31EF4CE82D7B</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>C6382FE7-2B00-492F-9668-31EF4CE82D7B.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>app-swoosh project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>app-swoosh</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build app-swoosh</string>
+			<key>timeStartedRecording</key>
+			<real>586723394.85258806</real>
+			<key>timeStoppedRecording</key>
+			<real>586723404.79281998</real>
+			<key>title</key>
+			<string>Build app-swoosh</string>
+			<key>uniqueIdentifier</key>
+			<string>C6382FE7-2B00-492F-9668-31EF4CE82D7B</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

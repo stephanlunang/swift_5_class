@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>5653C9B1-9716-4848-9081-3C81BA90B5B1</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>5653C9B1-9716-4848-9081-3C81BA90B5B1.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>app-swoosh project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>app-swoosh</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug app-swoosh</string>
+			<key>timeStartedRecording</key>
+			<real>586723404.71854198</real>
+			<key>timeStoppedRecording</key>
+			<real>586723427.03092003</real>
+			<key>title</key>
+			<string>Debug app-swoosh</string>
+			<key>uniqueIdentifier</key>
+			<string>5653C9B1-9716-4848-9081-3C81BA90B5B1</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

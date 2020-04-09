@@ -1,0 +1,10 @@
+version: "Apple Swift version 5.1 (swiftlang-1100.0.257.2 clang-1100.0.31.3)"
+options: "e058ab22bfd872b92d69a2d150d6143a"
+build_time: [1565030571, 31352000]
+inputs:
+  "/Users/devslopes/Downloads/app-swoosh/app-swoosh/Controller/WelcomeVC.swift": [1497497442, 0]
+  "/Users/devslopes/Downloads/app-swoosh/app-swoosh/Controller/LeagueVC.swift": [1497589960, 0]
+  "/Users/devslopes/Downloads/app-swoosh/app-swoosh/AppDelegate.swift": [1497326894, 0]
+  "/Users/devslopes/Downloads/app-swoosh/app-swoosh/Controller/SkillVC.swift": [1497590036, 0]
+  "/Users/devslopes/Downloads/app-swoosh/app-swoosh/Model/Player.swift": [1497590056, 0]
+  "/Users/devslopes/Downloads/app-swoosh/app-swoosh/View/BorderButton.swift": [1497328338, 0]
