@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--MainVC-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="MainVC" customModule="Converter" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YHf-4j-Cls">
+                                <rect key="frame" x="40" y="384" width="40" height="518"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="ekf-Rr-mvD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="bottom" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="PZa-U9-XIp">
+                                <rect key="frame" x="20" y="84" width="374" height="100"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pVI-FU-88k">
+                                        <rect key="frame" x="0.0" y="49" width="182" height="51"/>
+                                        <color key="backgroundColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.25261883802816903" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="31"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                    </textField>
+                                    <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mHl-AF-bBj">
+                                        <rect key="frame" x="192" y="49" width="182" height="51"/>
+                                        <color key="backgroundColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.2463193221830986" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="31"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                    </textField>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="pFy-7V-60f"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="bottom" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="jAI-oc-Kpl">
+                                <rect key="frame" x="20" y="404" width="374" height="100"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bzD-uT-Vhx">
+                                        <rect key="frame" x="0.0" y="49" width="182" height="51"/>
+                                        <color key="backgroundColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.25261883800000001" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="31"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                    </textField>
+                                    <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ha0-8r-NAc">
+                                        <rect key="frame" x="192" y="49" width="182" height="51"/>
+                                        <color key="backgroundColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.2463193222" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="31"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                    </textField>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="dAM-lP-6qy"/>
+                                </constraints>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CgM-bU-5fR" customClass="convertBtn" customModule="Converter" customModuleProvider="target">
+                                <rect key="frame" x="20" y="264" width="374" height="120"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="vib-dY-EGN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="33"/>
+                                <state key="normal" title="Convert">
+                                    <color key="titleColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="convertBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JAN-jh-mFn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hg2-aX-Fur" customClass="selectorBtn" customModule="Converter" customModuleProvider="target">
+                                <rect key="frame" x="132" y="214" width="150" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="rEM-sD-Wrd"/>
+                                    <constraint firstAttribute="width" constant="150" id="tZe-Bx-GEp"/>
+                                </constraints>
+                                <state key="normal" title="Miles to Kilometers"/>
+                                <connections>
+                                    <action selector="distanceBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pFp-j8-6aK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L1X-Xp-fKk" customClass="selectorBtn" customModule="Converter" customModuleProvider="target">
+                                <rect key="frame" x="132" y="534" width="150" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="6EG-BG-IcZ"/>
+                                    <constraint firstAttribute="width" constant="150" id="XP9-Cp-ijF"/>
+                                </constraints>
+                                <state key="normal" title="Pounds to Kilograms"/>
+                                <connections>
+                                    <action selector="weightBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vJL-li-qCa"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Convert between Metric and Imperial" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n5x-qj-hhr">
+                                <rect key="frame" x="40" y="54" width="334" height="54"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="54" id="Jlx-kK-7he"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="18"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jv8-Y1-Gi2" customClass="convertBtn" customModule="Converter" customModuleProvider="target">
+                                <rect key="frame" x="20" y="584" width="374" height="120"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="2aI-gS-yCT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="33"/>
+                                <state key="normal" title="Convert">
+                                    <color key="titleColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="weightConvertBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NNy-iO-omF"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Jv8-Y1-Gi2" secondAttribute="trailing" constant="20" id="49O-Az-deo"/>
+                            <constraint firstItem="PZa-U9-XIp" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="823-Np-19h"/>
+                            <constraint firstItem="Jv8-Y1-Gi2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Bvq-LR-1Ae"/>
+                            <constraint firstItem="CgM-bU-5fR" firstAttribute="top" secondItem="PZa-U9-XIp" secondAttribute="bottom" constant="80" id="GIn-NZ-RWQ"/>
+                            <constraint firstItem="YHf-4j-Cls" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="HX5-nX-0Qd"/>
+                            <constraint firstItem="PZa-U9-XIp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ISX-9o-79A"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="CgM-bU-5fR" secondAttribute="trailing" constant="20" id="IgC-NW-s6T"/>
+                            <constraint firstItem="Hg2-aX-Fur" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LbG-6x-jVn"/>
+                            <constraint firstItem="jAI-oc-Kpl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="QFR-JN-txD"/>
+                            <constraint firstItem="Jv8-Y1-Gi2" firstAttribute="top" secondItem="L1X-Xp-fKk" secondAttribute="bottom" constant="20" id="Yzs-aI-6aZ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="PZa-U9-XIp" secondAttribute="trailing" constant="20" id="Zxf-ZZ-xVX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jAI-oc-Kpl" secondAttribute="trailing" constant="20" id="buh-tV-LPS"/>
+                            <constraint firstItem="CgM-bU-5fR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="cTb-m2-PEC"/>
+                            <constraint firstItem="Jv8-Y1-Gi2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="fd4-Iu-vVN"/>
+                            <constraint firstItem="YHf-4j-Cls" firstAttribute="top" secondItem="CgM-bU-5fR" secondAttribute="bottom" id="fjw-CN-aR1"/>
+                            <constraint firstItem="jAI-oc-Kpl" firstAttribute="top" secondItem="CgM-bU-5fR" secondAttribute="bottom" constant="20" id="gYj-09-j1O"/>
+                            <constraint firstItem="n5x-qj-hhr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="lXW-bc-arB"/>
+                            <constraint firstItem="L1X-Xp-fKk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lhe-k6-egj"/>
+                            <constraint firstItem="Hg2-aX-Fur" firstAttribute="top" secondItem="PZa-U9-XIp" secondAttribute="bottom" constant="30" id="nNl-Hg-1I6"/>
+                            <constraint firstItem="n5x-qj-hhr" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="qKf-cm-Wiz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="n5x-qj-hhr" secondAttribute="trailing" constant="40" id="qzi-FD-8f1"/>
+                            <constraint firstItem="L1X-Xp-fKk" firstAttribute="top" secondItem="jAI-oc-Kpl" secondAttribute="bottom" constant="30" id="tGn-TA-2mn"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="YHf-4j-Cls" secondAttribute="bottom" constant="-40" id="uyK-Na-wLp"/>
+                            <constraint firstItem="PZa-U9-XIp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="yJP-r7-GJc"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="convertInput" destination="pVI-FU-88k" id="doA-qW-qzX"/>
+                        <outlet property="convertOutput" destination="mHl-AF-bBj" id="PVt-Zz-7aX"/>
+                        <outlet property="weightInput" destination="bzD-uT-Vhx" id="tIr-bR-qVq"/>
+                        <outlet property="weightOutput" destination="ha0-8r-NAc" id="GBg-nc-XAC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="137.94642857142856"/>
+        </scene>
+    </scenes>
+</document>
